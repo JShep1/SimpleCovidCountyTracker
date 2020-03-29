@@ -126,7 +126,7 @@ for i in range(len(county_names)):
     y_poly_pred = model.predict(x_poly)
 
     plt.scatter(y_pos, cases, s=10)
-    plt.plot(x, y_poly_pred, label=county)
+    plt.plot(x, y_poly_pred, label=(county + ', ' + state))
     plt.ylabel('Cases')
 all_dates = list(day_mapping.keys())
 plt.xticks(np.arange(day_count), all_dates, rotation=45)
