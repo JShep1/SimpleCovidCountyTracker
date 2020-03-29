@@ -1,4 +1,4 @@
-Plots the chosen county data with a regression line from NYT's 'us-counties.csv' file.
+Plots the chosen county data with a regression line from NYT's 'us-counties.csv' file [here](https://github.com/nytimes/covid-19-data)
 
 Be sure to have the us-counties.csv data file within the same directory as the script.
 
