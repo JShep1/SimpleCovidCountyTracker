@@ -130,7 +130,7 @@ for i in range(len(county_names)):
     plt.ylabel('Cases')
 all_dates = list(day_mapping.keys())
 plt.xticks(np.arange(day_count), all_dates, rotation=45)
-ncols = 5
+ncols = 2
 ax.legend(ncol=ncols, loc='best')
 plt.title("Total COVID-19 Cases Per County")
 plt.show()
